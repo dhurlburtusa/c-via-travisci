@@ -3,5 +3,6 @@ language: c
 install:
   - autoreconf --install
   - ls -al
+  - cat config.h.in
   - cat Makefile.in
 script: ./configure && make && make install
