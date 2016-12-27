@@ -1,2 +1,2 @@
 language: c
-install: true
+install: autoreconf --install
