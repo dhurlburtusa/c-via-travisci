@@ -1,2 +1,5 @@
 language: c
-install: autoreconf --install
+install:
+  - autoreconf --install
+  - ls -al
+  - cat Makefile.in
