@@ -3,3 +3,4 @@ install:
   - autoreconf --install
   - ls -al
   - cat Makefile.in
+script: ./configure && make && make install
