@@ -11,4 +11,5 @@ install:
   - cat Makefile.in
   - cat depcomp
   - cat missing
-script: ./configure && make && sudo make install
+  - ./configure && make && sudo make install
+script: hello
