@@ -1,3 +1,4 @@
+sudo: required
 language: c
 install:
   - autoreconf --install
@@ -10,4 +11,4 @@ install:
   - cat Makefile.in
   - cat depcomp
   - cat missing
-script: ./configure && make && make install
+script: ./configure && make && sudo make install
